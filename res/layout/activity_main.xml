@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity" 
+    android:background="#5ec4cd">
+
+    <Button
+        android:id="@+id/button1"
+         android:layout_width="254dp"
+        android:layout_height="45dip"
+        android:background="@drawable/button_selector"
+         
+        android:textStyle="bold" 
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:layout_marginBottom="2dip"
+        android:textColor="#000000"
+        android:onClick="Rechercher"
+        android:text="Rechercher" />
+    
+     <Button
+        android:id="@+id/button2"
+         android:layout_width="254dp"
+        android:layout_height="45dip"
+        android:background="@drawable/button_selector"
+        
+        android:textStyle="bold" 
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:layout_marginBottom="2dip"
+        android:textColor="#000000"
+        android:onClick="Dictionnaire"
+        android:text="Dictionnaire" />
+
+    <Button
+        android:id="@+id/button3"
+         android:layout_width="254dp"
+        android:layout_height="45dip"
+        android:background="@drawable/button_selector"
+        
+        android:textStyle="bold" 
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:layout_marginBottom="2dip"
+        android:textColor="#000000"
+        android:onClick="Nouchi"
+        android:text="Le Nouchi ?" />
+
+   
+
+    <Button
+        android:id="@+id/button4"
+         android:layout_width="254dp"
+        android:layout_height="45dip"
+        android:background="@drawable/button_selector"
+        
+        android:textStyle="bold" 
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:layout_marginBottom="2dip"
+        android:textColor="#000000"
+        android:onClick="Propos"
+        android:text="Crédits" />
+
+</LinearLayout>
